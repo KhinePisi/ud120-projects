@@ -1,11 +1,11 @@
 #!/usr/bin/python
 
 print
-print "checking for nltk"
+print ("checking for nltk")
 try:
     import nltk
 except ImportError:
-    print "you should install nltk before continuing"
+    print ("you should install nltk before continuing")
 
 print "checking for numpy"
 try:
